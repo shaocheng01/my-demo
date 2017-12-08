@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ajax2-请求Json数据</title>
+</head>
+
+<body>
+	
+	<button id="but1">请求单个用户</button>
+	<button id="but2">请求所有用户</button>
+	
+	<br><br>
+	<h3>单个用户</h3>
+	<table width="200" border="1"  id="user">
+		
+	</table>
+	
+	<br><br>
+	<h3>所有用户</h3>
+	<table width="200" border="1"  id="users">
+		<tbody>
+			<tr>
+				<td>${arr.id}</td>
+				<td>${arr.name}</td>
+				<td>${arr.email}</td>
+			</tr>
+		</tbody>
+	
+	</table>
+	
+<script>
+
+document.getElementById('but1').addEventListener('click',dan);
+
+document.getElementById('but2').addEventListener('click',shuang);
+function dan(){
+	var ajx = new XMLHttpRequest();
+	ajx.open('get','user.json',true);
+	ajx.send();
+	ajx.onload=function(){
+		if(this.status==200){
+			var arr=JSON.parse(this.responseText);
+			console.log(arr);
+			var oul='';
+			oul+=`
+				<tbody>
+					<tr>
+						<td>${arr.id}</td>
+						<td>${arr.name}</td>
+						<td>${arr.email}</td>
+					</tr>
+				</tbody>
+				`
+			document.getElementById('user').innerHTML=oul;
+			
+			
+		}
+	}
+	
+	
+}
+	
+function shuang(){
+	var xhr=new XMLHttpRequest();
+	xhr.open('get','users.json',true);
+	xhr.send();
+	xhr.onload=function(){
+		if(this.status==200){
+			console.log(this.responseText);
+		}
+	}
+}
+	
+</script>
+	
+	
+	
+</body>
+</html>
