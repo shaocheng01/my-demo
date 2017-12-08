@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, select, textarea, p { margin:0 auto; padding: 0;-webkit-tap-highlight-color:rgba(0,0,0,0); font-family: Arial, "微软雅黑"; }
+html,body{ width:100%; min-height:100%;max-height:auto; font-size:10px; background-color:#121118;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+audio, canvas, video { display: inline-block; *display:inline;*zoom:1}
+audio:not([controls]) { display: none }
+[hidden] {display:none}
+input, select ,textarea { vertical-align: middle; outline: 0 ;-webkit-appearance:none;}
+table { margin: 0 auto }
+table, td, tr, th {}
+ol, ul { list-style: none; }
+li { list-style-type: none; }
+img { vertical-align: middle; border: 0 ;display: block;width: 100%; margin: 0 auto;}
+img:not([src*="/"]) { display: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 1.2rem; font-weight: normal; }
+a {display: block; margin: 0 auto; color: #000; text-decoration: none; font-family:"Microsoft Yahei UI", "Microsoft Yahei", Verdana, Simsun, "Segoe UI", "Segoe UI Web", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif; -webkit-tap-highlight-color: rgba(255,255,255,0) ;}
+a:hover { color: #000; cursor: pointer;}
+
