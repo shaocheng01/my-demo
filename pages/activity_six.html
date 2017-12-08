@@ -1,0 +1,103 @@
+<!--文章列表-->
+<ul class="text_big_box">
+	<li class="text_box" ng-click="activity_tea('activity_tea')">
+		<p class="good_logo">好货</br>推荐</p>
+		<img class="placeholder" src="https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0915/0c/0a/0c0a93618d78eceb42f3c3f2d4ab08a7.jpg"/>
+		<div class="text_content text_title_box">
+			<p class="ellipsis"></p>
+			<p>一杯枸杞菊花茶<br />赶走亚健康</p>
+			<p style="margin-top: 0.25rem;">送给长看手机的你</p>
+			<!--<p>-->
+				<!--<span class="ellipsis text_title_price">好货价：119,00</span>-->
+			<!--</p>-->
+		</div>
+	</li>
+	<li class="text_box">
+		<div class="three-pro" ng-click="toDetailPage('030304000016','1000006474')">
+			<img class="placeholder" src="https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0915/0c/0a/0c0a93618d78eceb42f3c3f2d4ab08a7.jpg" alt="">
+			<p class="twoline-hidden">恒天易德（Hengtianyide） 明目枸杞菊花 40g</p>
+			<div class="pro_price">¥29</div>
+		</div>
+		<div class="three-pro" ng-click="toDetailPage('0303012001513','1000032095')">
+			<img class="placeholder" src="https://images.maya1618.com/uploads/product/2017/1107/52/09/5209a0051338b108900e756d349f19db.jpg" alt="">
+			<p class="twoline-hidden">【包邮】迈克西盟俄罗斯原产蜂巢蜜盒装500克百花蜂蜜嚼着吃的蜂蜜（1斤装）</p>
+			<div class="pro_price">¥69.9</div>
+		</div>
+		<div class="three-pro" ng-click="toDetailPage('0303042000102','1000012196')">
+			<img class="placeholder" src="https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0921/5c/ba/5cba3376314a621ccba2bdb14d1ae8bb.jpg" alt="">
+			<p class="twoline-hidden">贵昌 滋蜂源山野花蜂蜜500g 包邮</p>
+			<div class="pro_price">¥28.9</div>
+		</div>
+	</li>
+</ul>
+<ul class="text_big_box ">
+	<li class="text_box" ng-click="activity_wristwatch('activity_wristwatch')" style="margin-top: 0.6rem;">
+		<p class="good_logo">好货</br>推荐</p>
+		<img class="placeholder" src="https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0912/c1/56/c1569ed2b7ab6e7fd2e6bcccd75622e3_small.jpg"/>
+		<div class="text_content text_title_box">
+			<p class="ellipsis"></p>
+			<p>明星人手一只的<br />腕表</p>
+			<p style="margin-top: 0.25rem;">不花大钱也能拥有出众气质</p>
+			<!--<p>-->
+				<!--<span class="ellipsis text_title_price">好货价：119,00</span>-->
+			<!--</p>-->
+		</div>
+	</li>
+	<li class="text_box" ng-click="activity_jewelry('activity_jewelry')" style="margin-top: 0.5rem;">
+		<p class="good_logo">好货</br>推荐</p>
+		<img class="placeholder" src="https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0911/a6/9f/a69fa35fe4aac6b5239468bd62ffe29c.jpg" />
+		<div class="text_content text_title_box">
+			<p class="ellipsis"></p>
+			<p>如果女人一生只能拥有一件首饰</p>
+			<p>那必是珍珠 </p>
+			<!--<p>-->
+				<!--<span class="ellipsis text_title_price">好货价：119,00</span>-->
+			<!--</p>-->
+		</div>
+	</li>
+	<li class="text_box" ng-click="activity_good('activity_good')">
+		<p class="good_logo">好货</br>推荐</p>
+		<img class="placeholder" src="https://images.maya1618.com/photo/small_26621510557553146.jpg"/>
+		<div class="text_content text_title_box">
+			<p class="ellipsis"></p>
+			<p>自来水变纯净水方法有N种</p>
+			<p style="margin-top: 0.25rem;"> 最有效的却是它 </p>
+			<!--<p>-->
+				<!--<span class="ellipsis text_title_price">好货价：119,00</span>-->
+			<!--</p>-->
+		</div>
+	</li>
+	<li class="text_box" ng-click="activity_redwine('activity_redwine')" style="margin-top: 0.5rem;">
+		<p class="good_logo">好货</br>推荐</p>
+		<img class="placeholder" src="https://images1.maya1618.com/uploads/product/2017/1113/a6/6b/a66bda8f6a3525b8bd8f3b5257c1a296.jpg" />
+		<div class="text_content text_title_box">
+			<p class="ellipsis"></p>
+			<p>红酒怎么选</p>
+			<p> 世界知名酿酒师告诉你 </p>
+			<!--<p>-->
+				<!--<span class="ellipsis text_title_price">好货价：119,00</span>-->
+			<!--</p>-->
+		</div>
+	</li>
+</ul>
+<div class="floor_box">
+	<p style="background: #fff;border-top:1px solid #eee;text-align: center;font-size: 0.6rem;height:2rem;line-height:2rem;">更多推荐</p>
+	<!--分会场-->
+	<div class="floor_list" ng-repeat="box in floor_detail track by $index">
+		<p class="detail_title" ng-bind="box.title" ng-if="box.title"></p>
+		<div class="pros_list_box">
+			<div class="pro_box detail_pro_box" ng-repeat="product in box.data track by $index" ng-click="toDetailPage(product.productId,product.productLable)">
+				<div class="pro_img_box">
+					<img class="placeholder" ng-src="{{product.pictureAddr}}"/>
+					<text class="list_activity_logo">直降</text>
+				</div>
+				<p class="pro_title ellipsis" ng-bind="product.productTitle"></p>
+				<p class="pro_title ellipsis pro_infos" ng-bind="product.productName"></p>
+				<div class="pro_price" >
+					<span class="ellipsis" ng-bind="product.activityPrice?'¥'+product.activityPrice:'¥'+product.salePrice"></span>
+					<span class="price_mini ellipsis" ng-if="product.activityPrice" ng-bind="'¥'+product.salePrice"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	

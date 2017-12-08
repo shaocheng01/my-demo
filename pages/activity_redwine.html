@@ -1,0 +1,73 @@
+<div class="redwine">
+	<b class="good_box_one1">红酒怎么选<br />世界知名酿酒师告诉你</b>
+	<div class="good_img">
+		<img class="placeholder good_pic1" src="imgs/good/images/banner_03.jpg"/>
+	</div>
+	<div class="good_text">
+		<p class="good_p1">智&nbsp;利&nbsp;产&nbsp;的&nbsp;也&nbsp;不&nbsp;错
+		<p class="good_p2">红酒</p>
+	</div>
+	<div class="redwine_line clear1" style="display: flex;">
+		<p style="width:0.8rem;height: 2.6rem;background: #151515;margin-right: 0.35rem;"></p>
+		<b style="display: block;margin-right: 2.725rem;color: #151515;line-height: 1.2rem;">买一瓶血统并不纯正的法国红酒倒不如去买智利产的</b>
+	</div>
+	<div class="redwine_my">
+		<p>一提到红酒大家第一时间想到的国家一定是法国  , 也因此很多打着法国红酒的名号“招摇撞骗”,可实际上不是纯正的法国红酒。</p>
+		<p>而智利也一直拥有着“葡萄酒之星”的美誉,　是南美洲的第二大酒国，地形和气候都很适合葡萄的生长。</p>
+		<b style="font-size: 0.65rem;padding-top:1.125rem;padding-left: 0.6rem;">红酒醇香口感极佳，享有很高的评价。</b>
+		<img src="imgs/good/images/red1.jpg" class="placeholder_big" style="height: 12.25rem;margin-top: 0.825rem;"/>
+	</div>
+	<div class="redwine_line clear2" style="display: flex;">
+		<p style="width:0.8rem;height: 2.6rem;background: #151515;margin-right: 0.35rem;"></p>
+		<b style="display: block;margin-right: 2.725rem;color: #151515;line-height: 1.2rem;">佳沃 · 云雀佳美娜干红葡萄酒拥有着贵族般的血统</b>
+	</div>
+	<div class="redwine_my">
+		<p>产于麦坡谷 （ Maipo ） 是距智利首都圣地亚哥 （ Santiago ） ， 最近的葡萄酒产区  ，处在智利产酒区的正中心 ，是孕育智利。</p>
+		<img src="imgs/good/images/red2.jpg" class="placeholder_big" style="height: 12.25rem;margin-top: 0.825rem;"/>
+	</div>
+	<div class="redwine_my">
+		<p>酒庄有被世界葡萄酒业誉为“ 西拉之王 ”的酿酒师John Duval出产佳酿已进入世界最好的5家米其林餐厅,其中4家来自欧洲国际，是新世界酒庄里第一个获此殊荣的品牌。</p>
+		<img src="imgs/good/images/red3.jpg" class="placeholder_big" style="height: 12.25rem;margin-top: 0.825rem;"/>
+	</div>
+	<div class="redwine_my">
+		<p>酒体呈深樱桃红色并伴有一丝紫红色调 。香气馥郁诱人,初始的红色和黑色水果香气尤为明显 , 如蓝莓  、草莓、樱桃等，随后各种香辛料交织着巧克力、香草的气息缓缓出现。</p>
+		<img src="imgs/good/images/redwine.jpg" class="placeholder_big" style="height: 12.55rem;margin-top: 0.825rem;"/>
+	</div>
+	<div class="redwine_my">
+		<p>本款酒最显著的特点是酒体平衡,单宁厚重而细腻 ,回味优雅纯净。适合搭配红肉、鸭、烤羊肉、奶酪等食物。</p>
+		<img src="imgs/good/images/red5.png" class="placeholder_big" style="margin-top: 0.825rem;height: 22.3rem;" ng-click="toDetailPage('0303032000359','1000028434')"/>
+		
+	</div>
+	<div class="good_jian1">
+		<b>产品名称:</b>
+		<b class="good_pin" style="display: block;">佳沃·云雀佳美娜干红葡萄酒单支装 750ml</b>
+		<b class="maya">玛雅价:188元</b>
+	</div>
+	<div class="floor_box">
+	<p style="background: #fff;border-top:1px solid #eee;text-align: center;font-size: 0.6rem;height:2rem;line-height:2rem;">更多推荐</p>
+	<!--分会场-->
+	<div class="floor_list" ng-repeat="box in floor_detail track by $index">
+		<p class="detail_title" ng-bind="box.title" ng-if="box.title"></p>
+		<div class="pros_list_box">
+			<div class="pro_box detail_pro_box" ng-repeat="product in box.data track by $index" ng-click="toDetailPage(product.productId,product.productLable)">
+				<div class="pro_img_box">
+					<img class="placeholder" ng-src="{{product.pictureAddr}}"/>
+					<text class="list_activity_logo">直降</text>
+				</div>
+				<p class="pro_title ellipsis" ng-bind="product.productTitle"></p>
+				<p class="pro_title ellipsis pro_infos" ng-bind="product.productName"></p>
+				<div class="pro_price" >
+					<span class="ellipsis" ng-bind="product.activityPrice?'¥'+product.activityPrice:'¥'+product.salePrice"></span>
+					<span class="price_mini ellipsis" ng-if="product.activityPrice" ng-bind="'¥'+product.salePrice"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!--分享按钮-->
+<img class="share_button" ng-if="isShowShar" src="imgs/activity_floor/share_button.png" ng-click="click_share()"/>
+<!--微信中提示浏览器打开-->
+<div is_show_weixin></div>
+<!--pop提示-->
+<toast_long></toast_long>

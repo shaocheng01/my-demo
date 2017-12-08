@@ -1,0 +1,70 @@
+<div class="store-wp" ng-show="data.isShowStore == 1">
+    <div class="store-header">
+        <div class="store-left">
+            <div class="store-logo" ng-click="page.toLicensePage(data.shopId)">
+                <img ng-src="{{data.storeLogo}}" width="100%">
+                <!--<img ng-src="imgs/wallet-bg.png" width="100%">-->
+            </div>
+            <div class="store-detail" ng-click="page.toLicensePage(data.shopId)">
+                <span class="store-name">{{data.shopName}}</span>
+                <div class="ensure">
+                    <i class="level-img"></i>
+                    <span class="store-text">精选商家</span>
+                    <i class="serv-img"></i>
+                    <span class="store-text">服务保障</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="store-service">
+            <div ng-click="page.openCustomService()">
+                <i class="level-img1"></i>
+                <span class="store-text">客服</span>
+            </div>
+            <div ng-click="page.collectStore()">
+                <i class="level-img2" ng-class="{collected: data.collectStore == 1 }"></i>
+                <span class="store-text">收藏</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="store-font-body">
+        <div class="store-all-product">
+            <div style="position: relative;">
+                <div class="error-page" ng-show="data.noProduct == true">
+                    <div class="error-icon">
+                        <img src="imgs/product-empty.png">
+                    </div>
+                    <div class="error-text">这里还是空空的</div>
+                </div>
+
+                <div class="select-bar" ng-class="{fixed: data.isfixed }">
+                    <div ng-class="{'active': checked_type == '1' }" ng-click="changeTabsId('1')">综合</div>
+                    <div ng-class="{'active': checked_type == '2' }" ng-click="changeTabsId('2')">销量</div>
+                    <div ng-class="{'active': checked_type == '3' }" ng-click="changeTabsId('3')">新品</div>
+                    <div ng-class="{'active': checked_type == '4' }" ng-click="changeTabsId('4'); ">价格
+                        <div class="sort-btn">
+                            <img ng-src="{{price_types?'imgs/down.png':'imgs/up.png'}}">
+                        </div>
+                    </div>
+                    <p class="clickOn"></p>
+                </div>
+
+
+                <div class="pros-list content" collect_product_tpl ng-class="{mt40: data.isfixed}" ng-show="data.noProduct == false"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div toast_tpl></div>
+
+<div toast_long></div>
+
+<div empty_tpl></div>
+
+<div error_page_tpl></div>
+
+
+
+

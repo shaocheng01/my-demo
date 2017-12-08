@@ -1,0 +1,17 @@
+.jewelry,.tea{
+	width:100%;
+	padding: 1.5rem 0 0 0;
+	background: #fff;
+	overflow: hidden;
+}
+.good_box_one_jewelry{
+	font-size: 1.25rem;
+	text-align: center;
+	padding: 1.5rem 0.8rem 0 0.8rem;
+	display: block;
+}
+.good_jian1_jewelry{
+	line-height: 1.2rem;
+	font-size: 0.75rem;
+	text-align: center;
+}

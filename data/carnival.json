@@ -1,0 +1,746 @@
+{
+  "area_block_list": [
+    [
+      {
+        "productId": "010103000413",
+        "productLable": "1000008314",
+        "productTitle": "云南白药养元青洗发水套装210ml+65ml（控油止痒）",
+        "productName": "一洗一护，健康头皮",
+        "salePrice": "89",
+        "activityPrice": "59",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0916/45/0d/450d453ff8f7dfea714d60e3e23bddee_small.jpg"
+      },
+      {
+        "productId": "010101000113",
+        "productLable": "1000008397",
+        "productTitle": "心相印茶语丝享系列130抽三层塑装纸面巾24包（整箱装）",
+        "productName": "国民福利",
+        "salePrice": "79.9",
+        "activityPrice": "59",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0916/1d/49/1d495ac8e8f85709bef08197b5760a76_small.jpg"
+      },
+      {
+        "productId": "0808012002159",
+        "productLable": "1000025858",
+        "productTitle": "繁星璀璨简约百搭爱心小耳钉浪漫别致 时尚百搭自然好气色",
+        "productName": "国民福利",
+        "salePrice": "122",
+        "activityPrice": "59",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1021/9f/ff/9ffffa5d684f4d864591a9b011d852ad_small.jpg"
+      },
+      {
+        "productId": "060603003918",
+        "productLable": "1000007861",
+        "productTitle": "俞兆林 37度恒温超薄蝉羽塑身美体保暖内衣套装 隐形发热无痕",
+        "productName": "国民福利",
+        "salePrice": "99",
+        "activityPrice": "59",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0916/ce/63/ce63c31e1e5323248415795fc5f0c611_small.jpg"
+      },
+      {
+        "productId": "0606012031524",
+        "productLable": "1000022931",
+        "productTitle": "平色2017秋冬新款高领立体印花修身显瘦网纱打底衫PD0126",
+        "productName": "国民福利",
+        "salePrice": "298",
+        "activityPrice": "59",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1012/ff/c4/ffc42c95a1f55c71bb4a04773174b065_small.jpg"
+      },
+      {
+        "productId": "010102001260",
+        "productLable": "1000005284",
+        "productTitle": "绿叶（Green   Leaf）火山岩泥去黑头3件套组（玻璃瓶）祛黑头粉刺三部曲 导出液鼻膜收缩毛孔深层清洁",
+        "productName": "国民福利",
+        "salePrice": "159",
+        "activityPrice": "59",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0914/70/61/70613f9207bdaa6586e12b0c77cf2f22_small.jpg"
+      },
+      {
+        "productId": "0101022002740",
+        "productLable": "1000011816",
+        "productTitle": "肌肤之食（SkinMenu) 美白补水面部护理精华护肤品整肌焕白7件套装",
+        "productName": "国民福利",
+        "salePrice": "218",
+        "activityPrice": "59",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0920/90/c7/90c7e0dda57d0a713411c3ab2d84f430_small.jpg"
+      },
+      {
+        "productId": "020207000310",
+        "productLable": "1000003875",
+        "productTitle": "小猪班纳童装女童长袖T恤2017秋装新款儿童打底衫266353012",
+        "productName": "国民福利",
+        "salePrice": "159",
+        "activityPrice": "59",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0913/b3/de/b3de9c71dc79444133c8b73ab4304f08_small.jpg"
+      }],
+    [
+      {
+        "productId": "060603001531",
+        "productLable": "1000006369",
+        "productTitle": "俞兆林中空热力黄金暖甲加厚加绒护膝贴片保暖内衣女男士套装1711077",
+        "productName": "国民福利",
+        "salePrice": "208",
+        "activityPrice": "99",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0915/84/ad/84ad130918a7ff4a0d4b7d6f732e8924_small.jpg"
+      },
+      {
+        "productId": "040401000472",
+        "productLable": "1000005634",
+        "productTitle": "飞科剃须刀刮胡刀水洗刮胡刀土豪金FS619待机长动力大1710528",
+        "productName": "国民福利",
+        "salePrice": "198",
+        "activityPrice": "99",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0914/a7/07/a707bfaad297bc352b1ec1a67bbfc402_small.jpg"
+      },
+      {
+        "productId": "010102000325",
+        "productLable": "1000001869",
+        "productTitle": "渲美（TB）微电流瘦脸仪 滚轮紧致小V脸美容器 瘦身瘦手臂瘦腿瘦脸减肥神器",
+        "productName": "国民福利",
+        "salePrice": "199",
+        "activityPrice": "99",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0912/60/1d/601dbc85b1ff254de627a5ff36488dd0_small.jpg"
+      },
+      {
+        "productId": "0303032000289",
+        "productLable": "1000025164",
+        "productTitle": "法国佰格仕侯爵（AOC）干红葡萄酒750ml",
+        "productName": "国民福利",
+        "salePrice": "198",
+        "activityPrice": "99",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1020/50/70/50700498ac1f9dbbbd5108000a31f408_small.jpg"
+      },
+      {
+        "productId": "0303012001197",
+        "productLable": "1000025954",
+        "productTitle": "鲜芬(Fresh)保加利亚进口  6瓶（半箱）装",
+        "productName": "国民福利",
+        "salePrice": "215",
+        "activityPrice": "99",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1021/16/62/1662903aae0261cf81237f7bca257df2_small.jpg"
+      },
+      {
+        "productId": "070704000101",
+        "productLable": "1000000517",
+        "productTitle": "凯仕达两件套三合一冲锋衣情侣款 ZFL777",
+        "productName": "国民福利",
+        "salePrice": "899",
+        "activityPrice": "99",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0908/0c/32/0c3286bc3f73a8df99a26f23336dd62f_small.jpg"
+      },
+      {
+        "productId": "0707012005785",
+        "productLable": "1000025544",
+        "productTitle": "德尔惠男鞋跑步鞋秋季新款飞线编织透气运动鞋男气垫跑鞋慢跑鞋潮22613647",
+        "productName": "国民福利",
+        "salePrice": "429",
+        "activityPrice": "99",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1020/29/ca/29ca9e2c6d8f440e2d9b22bb1a350710_small.jpg"
+      },
+      {
+        "productId": "0707012003973",
+        "productLable": "1000015774",
+        "productTitle": "花花公子高帮鞋男鞋反绒皮短靴加绒棉鞋男士韩版潮流休闲鞋子冬季DA57118",
+        "productName": "国民福利",
+        "salePrice": "525",
+        "activityPrice": "99",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/0926/0b/dd/0bddd1a4eb80df00cc76dafa70d35615_small.jpg"
+      }
+    ],
+    [
+      {
+        "productId": "0606022013943",
+        "productLable": "1000023450",
+        "productTitle": "格扬 男士中长款加厚棉衣冬季保暖棉服连帽加长防风外套棉袄",
+        "productName": "国民福利",
+        "salePrice": "799",
+        "activityPrice": "199",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1013/86/d0/86d090653240e99e471760f2e25f4dc0_small.jpg"
+      },
+      {
+        "productId": "0808012002102",
+        "productLable": "1000023588",
+        "productTitle": "PearlQueen珍珠皇后 6-6.5mm淡水珍珠S925银一体套链-豌豆 GZXDRL1084",
+        "productName": "国民福利",
+        "salePrice": "1000",
+        "activityPrice": "199",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1014/64/a1/64a1453a1dd466b0a93a668d701b0b42_small.jpg"
+      },
+      {
+        "productId": "0404022000535",
+        "productLable": "1000013765",
+        "productTitle": "乐心 MAMBO HR 智能心率手环",
+        "productName": "国民福利",
+        "salePrice": "298",
+        "activityPrice": "199",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/0922/40/a9/40a99e1f155c6539c7ef996453807127_small.jpg"
+      },
+      {
+        "productId": "040401000808",
+        "productLable": "1000010198",
+        "productTitle": "摩飞 (MORPHY RICHARDS)磨豆器MR9100",
+        "productName": "国民福利",
+        "salePrice": "249",
+        "activityPrice": "199",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0919/82/3f/823f1210a3e9609e85fbdcc7c65646c7_small.jpg"
+      },
+      {
+        "productId": "010102001226",
+        "productLable": "1000005177",
+        "productTitle": "欧诗漫珍珠水氧灵动保湿礼盒",
+        "productName": "国民福利",
+        "salePrice": "275",
+        "activityPrice": "199",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0914/09/ec/09ecded2030e2666fbed0725610682a7_small.jpg"
+      },
+      {
+        "productId": "080804000040",
+        "productLable": "1000005617",
+        "productTitle": "一湖一蟹阳澄湖大闸蟹658型礼券 母蟹2.5两*8只",
+        "productName": "国民福利",
+        "salePrice": "220",
+        "activityPrice": "199",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0914/c3/19/c3194bc4263015eadea50928ead0045d_small.jpg"
+      },
+      {
+        "productId": "030303000050",
+        "productLable": "1000009308",
+        "productTitle": "玛歌力士法国进口红酒葡萄酒750ml法国波尔多产区AOC干红包邮",
+        "productName": "国民福利",
+        "salePrice": "389",
+        "activityPrice": "199",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0918/15/f2/15f2dd7a85d124702fb8650338346037_small.jpg"
+      },
+      {
+        "productId": "0707012005680",
+        "productLable": "1000023835",
+        "productTitle": "德尔惠女鞋2017新款跑步鞋秋季透气运动鞋女子休闲旅游鞋跑鞋正品22623681",
+        "productName": "国民福利",
+        "salePrice": "399",
+        "activityPrice": "199",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1016/7e/48/7e481f6b1e3f4891f246420bdcb47743_small.jpg"
+      }
+    ],
+    [
+      {
+        "productId": "080802001108",
+        "productLable": "1000009625",
+        "productTitle": "卡西欧CASIO手表男士防水钢带MTP-1374D-7A三眼休闲石英表",
+        "productName": "国民福利",
+        "salePrice": "448",
+        "activityPrice": "299",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0918/1a/6a/1a6a5b62f02b807e93a900ced22f6cb2_small.jpg"
+      },
+      {
+        "productId": "0606022017053",
+        "productLable": "1000025695",
+        "productTitle": "雅鹿2017韩版秋冬新款男款轻薄羽绒服短款立领秋羽绒衣1722783",
+        "productName": "国民福利",
+        "salePrice": "558",
+        "activityPrice": "299",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1021/76/f9/76f91d282c62209bb9b6e1a8507bafee_small.jpg"
+      },
+      {
+        "productId": "0202072003333",
+        "productLable": "1000023179",
+        "productTitle": "小猪班纳女童加厚保暖羽绒服短款2017冬装126471095",
+        "productName": "国民福利",
+        "salePrice": "889",
+        "activityPrice": "299",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1013/48/a9/48a9aa9028b5e9567f72a32d47414ec4_small.jpg"
+      },
+      {
+        "productId": "0505021000024",
+        "productLable": "1000010874",
+        "productTitle": "博洋BEYOND 高支全棉印花床单四件套(西耶娜)1.8米",
+        "productName": "国民福利",
+        "salePrice": "878",
+        "activityPrice": "299",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0919/28/39/283980fc9cf130d02571018eb2b2dc1e_small.jpg"
+      },
+      {
+        "productId": "080804000033",
+        "productLable": "1000005554",
+        "productTitle": "一湖一蟹阳澄湖大闸蟹998型礼券8只装 公蟹4两*4只母蟹2.8两*4只",
+        "productName": "国民福利",
+        "salePrice": "369",
+        "activityPrice": "299",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0914/0f/25/0f257a3bcaaf13a3cbfb6dcf2cfa890b_small.jpg"
+      },
+      {
+        "productId": "080801001180",
+        "productLable": "1000006611",
+        "productTitle": "阿菲娜AFFINER 925银 施华洛世奇锆石 唯爱项链AFP2011",
+        "productName": "国民福利",
+        "salePrice": "766",
+        "activityPrice": "299",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0915/b7/ca/b7caf5e310b252a56da9aed77c07131f_small.jpg"
+      },
+      {
+        "productId": "050501000148",
+        "productLable": "1000002665",
+        "productTitle": "苏泊尔（SUPOR）双层复底蒸锅SZ26B13",
+        "productName": "国民福利",
+        "salePrice": "659",
+        "activityPrice": "299",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0912/46/5c/465cdc1901dbe7a877ab75c06faa13e1_small.jpg"
+      },
+      {
+        "productId": "0707012003930",
+        "productLable": "1000014728",
+        "productTitle": "Nike耐克女鞋Air Presto气垫黑武士休闲运动复刻跑步鞋878068-001",
+        "productName": "国民福利",
+        "salePrice": "899",
+        "activityPrice": "299",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/0924/1f/f1/1ff1926730fcaa1cc60c9cb442ea4ec1_small.jpg"
+      }
+    ]
+  ],
+
+
+
+  "bottom_block_list": [
+    [{
+      "productId": "0606012033486",
+      "productLable": "1000023783",
+      "productTitle": "琴佩尔欧洲站2017冬季女装新款 欧美女装貉子毛领白鸭绒羽绒服",
+      "productName": "平价不输大牌",
+      "salePrice": "980",
+      "activityPrice": "639",
+      "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1015/3e/c3/3ec30f75363bd754b476216c6180c9d1_small.jpg"
+    },
+    {
+      "productId": "0606012033603",
+      "productLable": "1000023911",
+      "productTitle": "钦佩尔欧洲站秋冬新款 欧美时尚无袖暗扣斗篷毛呢大衣Q703096",
+      "productName": "平价不输大牌",
+      "salePrice": "480",
+      "activityPrice": "269",
+      "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1016/48/02/48023492730aa99728740c8ac8fbb865_small.jpg"
+    },
+    {
+      "productId": "0606012030227",
+      "productLable": "1000022543",
+      "productTitle": "雅琪嫚2017秋冬新款打底针织衫女长袖套头蕾丝修身弹力毛衣韩版针织衫性感露肩网纱内搭打底衫YMP1633-1",
+      "productName": "平价不输大牌",
+      "salePrice": "188",
+      "activityPrice": "89",
+      "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1011/fb/8c/fb8c2439f30aa3bf22fbd588a7daa2c3_small.jpg"
+    },
+    {
+      "productId": "0606012032839",
+      "productLable": "1000023551",
+      "productTitle": "贝塔2017秋冬新款小鸟刺绣毛衣女装圆领宽松套头针织衫A1713",
+      "productName": "平价不输大牌",
+      "salePrice": "376",
+      "activityPrice": "169",
+      "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1014/58/1e/581e1a6b897837fc5edc9ebab0386cf7_small.jpg"
+    },
+    {
+      "productId": "0606012035933",
+      "productLable": "1000025719",
+      "productTitle": "雅鹿2017秋冬新款轻薄羽绒服女短款立领修身外套潮1722781",
+      "productName": "平价不输大牌",
+      "salePrice": "478",
+      "activityPrice": "198",
+      "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1021/e5/43/e5431d837fbc1a4afdfd253d13c48899_small.jpg"
+    },
+    {
+      "productId": "0606012033404",
+      "productLable": "1000023762",
+      "productTitle": "DOWISI朵维思2017秋冬装新款女针织衫韩版宽松长袖印花毛衣高领DWS6037",
+      "productName": "平价不输大牌",
+      "salePrice": "388",
+      "activityPrice": "118",
+      "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1015/bf/64/bf646abe6b7eb4873075e9052eb18e3e_small.jpg"
+    },
+    {
+      "productId": "0606012031412",
+      "productLable": "1000022911",
+      "productTitle": "羽依梦 皮羽绒服女中长款修身连帽超大狐狸毛领绵羊皮女装外套潮",
+      "productName": "平价不输大牌",
+      "salePrice": "1999",
+      "activityPrice": "738",
+      "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1012/35/6e/356e52ab9bba695cdbb18b49f7847206_small.jpg"
+    },
+    {
+      "productId": "0606012029112",
+      "productLable": "1000022165",
+      "productTitle": "雾中女孩2017秋季新款风衣女中长款韩版时尚气质纯棉刺绣抽绳收腰女装百搭休闲外套W17689",
+      "productName": "平价不输大牌",
+      "salePrice": "468",
+      "activityPrice": "278",
+      "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1010/b5/e9/b5e9c62e631b9f7bcdcc716696701aea_small.jpg"
+    }],
+    [
+      {
+        "productId": "0606022013903",
+        "productLable": "1000022883",
+        "productTitle": "博那罗蒂 2017中老年新款羽绒服男纯色男士羽绒服立领轻薄羽绒服男1719694",
+        "productName": "平价不输大牌",
+        "salePrice": "868",
+        "activityPrice": "348",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1012/88/1c/881cbf141a2807d5a3b816dff4a4364b_small.jpg"
+      },
+      {
+        "productId": "0606022015649",
+        "productLable": "1000025114",
+        "productTitle": "南极人 男士针织衫秋冬新款中年男式翻领长袖品牌休闲毛衣男1720051",
+        "productName": "平价不输大牌",
+        "salePrice": "318",
+        "activityPrice": "128",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1019/73/9c/739cd2c54a8e71c49688ab1f2c7c6a5b_small.jpg"
+      },
+      {
+        "productId": "0606022015303",
+        "productLable": "1000025064",
+        "productTitle": "南极人 男士羽绒服冬季新款加厚大毛领男装外套品牌羽绒服男1720039",
+        "productName": "平价不输大牌",
+        "salePrice": "1758",
+        "activityPrice": "698",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1019/b2/95/b295d0b3010cbe5890a0e0e9d5090c80_small.jpg"
+      },
+      {
+        "productId": "0606032016427",
+        "productLable": "1000024933",
+        "productTitle": "七匹狼 男士内衣02243莫代尔圆领时尚舒适薄款舒适1713700",
+        "productName": "平价不输大牌",
+        "salePrice": "358",
+        "activityPrice": "138",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1019/56/e1/56e13da872cc2e3516e973c816d2b8c3_small.jpg"
+      },
+      {
+        "productId": "0606022008534",
+        "productLable": "1000018663",
+        "productTitle": "夔牛 秋季新款休闲西装男英伦格子商务修身款西服男上衣单西外套1716965",
+        "productName": "平价不输大牌",
+        "salePrice": "618",
+        "activityPrice": "298",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1001/a4/f7/a4f7fa47174c96575f682ed8fb9e941a_small.jpg"
+      },
+      {
+        "productId": "0606022004076",
+        "productLable": "1000014256",
+        "productTitle": "先行鹿 秋季新款PU皮衣罗纹领男士皮夹克秋季薄款新款1713882",
+        "productName": "平价不输大牌",
+        "salePrice": "548",
+        "activityPrice": "258",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/0923/70/47/70471d9f0473cd54a57cb5a33c248041_small.jpg"
+      },
+      {
+        "productId": "060602000076",
+        "productLable": "1000003284",
+        "productTitle": "格扬（GEYANG）秋季新款男士机车pu皮衣夹克外套 简约百搭",
+        "productName": "平价不输大牌",
+        "salePrice": "458",
+        "activityPrice": "128",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0913/94/19/941919285822f1a9ff3c3714a7c04f12_small.jpg"
+      },
+      {
+        "productId": "0606022016053",
+        "productLable": "1000025548",
+        "productTitle": "牧王多斯秋冬新款长袖加绒加厚衬衣深色格子休闲男式保暖衬衫",
+        "productName": "平价不输大牌",
+        "salePrice": "199",
+        "activityPrice": "129",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1020/b1/b0/b1b0b0d332c365cce5c16a51248ef15c_small.jpg"
+      }
+    ],
+    [
+      {
+        "productId": "0707012004546",
+        "productLable": "1000020995",
+        "productTitle": "花花公子男鞋春季运动板鞋男韩版潮流百搭休闲鞋透气青年CX39242",
+        "productName": "【时尚百搭 顺丰包邮 花花正品 假一赔十】",
+        "salePrice": "998",
+        "activityPrice": "139",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1006/1b/aa/1baa2a7cb03428c780b7d2c13bbd5e4c_small.jpg"
+      },
+      {
+        "productId": "070701001121",
+        "productLable": "1000002677",
+        "productTitle": "阿迪达斯低帮原宿小白鞋三叶草史密斯情侣百搭休闲鞋Stan Smith男女板鞋",
+        "productName": "情侣百搭休闲鞋，原宿小白鞋",
+        "salePrice": "699",
+        "activityPrice": "339",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0912/48/c5/48c574376ad01de092fa8955d2b1d6be_small.jpg"
+      },
+      {
+        "productId": "070701001032",
+        "productLable": "1000002668",
+        "productTitle": "德尔惠女鞋运动女跑步鞋2017新款复古耐磨减震女子休闲慢跑鞋T74624513",
+        "productName": "德尔惠女鞋运动女跑步鞋2017新款复古耐磨减震女子休闲慢跑鞋",
+        "salePrice": "299",
+        "activityPrice": "149",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0912/ff/40/ff403011b1f6747f81011fe2cb924933_small.jpg"
+      },
+      {
+        "productId": "070701002139",
+        "productLable": "1000003944",
+        "productTitle": "领舞者夏季时尚透气网鞋时尚运动跑步女式网鞋女鞋",
+        "productName": "舒适透气时尚",
+        "salePrice": "680",
+        "activityPrice": "69",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0913/9e/44/9e44c4f5c932ac5678682a1e19772cea_small.jpg"
+      },
+      {
+        "productId": "070704001412",
+        "productLable": "1000009683",
+        "productTitle": "柒巢透气男士网鞋韩版网面鞋男镂空洞洞鞋超轻便休闲鞋软底",
+        "productName": "手工户外休闲透气鞋履，畅享自然呼吸",
+        "salePrice": "599",
+        "activityPrice": "138",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0918/48/e6/48e6375632f5c485d2910d95f66467b8_small.jpg"
+      },
+      {
+        "productId": "070704000223",
+        "productLable": "1000000684",
+        "productTitle": "柒巢户外低帮情侣款登山鞋男女防滑耐磨徒步鞋轻便越野运动休闲爬山鞋",
+        "productName": "抗震防滑，耐磨透气，全新户外登山情侣鞋",
+        "salePrice": "609",
+        "activityPrice": "158",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0910/27/58/2758b5bebf74398de8e80425b40fd1d9_small.jpg"
+      },
+      {
+        "productId": "070701001239",
+        "productLable": "1000002712",
+        "productTitle": "阿迪达斯女鞋Stan Smith三叶草史密斯休闲运动鞋CNY 鸡年限定男女板鞋",
+        "productName": "时尚都市情侣休闲鞋",
+        "salePrice": "699",
+        "activityPrice": "339",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0912/3e/de/3ede63ee7add9330338373ba3180a362_small.jpg"
+      },
+      {
+        "productId": "0707012005693",
+        "productLable": "1000023853",
+        "productTitle": "德尔惠男鞋运动鞋男秋冬季复古跑步鞋透气跑鞋旅游鞋男士跑鞋 72614505",
+        "productName": "复古跑步鞋透气跑鞋旅游鞋",
+        "salePrice": "339",
+        "activityPrice": "149",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1016/cc/93/cc93d26ceaa87a542090a05647048350_small.jpg"
+      }
+    ],
+    [
+      {
+        "productId": "040401000145",
+        "productLable": "1000000244",
+        "productTitle": "美妙太极推拿式自动加热按摩足浴器MM-8879M全自动按摩足浴盆洗脚盆泡脚盆泡脚桶",
+        "productName": "平价好用不输大牌",
+        "salePrice": "998",
+        "activityPrice": "469",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0901/70/97/709797152b46dc7a77069047d9f0c070_small.jpg"
+      },
+      {
+        "productId": "040401000044",
+        "productLable": "1000000086",
+        "productTitle": "朗嬴LY-8008竹炭护膝 运动护具   透气保暖护膝男女通用",
+        "productName": "平价好用不输大牌",
+        "salePrice": "68",
+        "activityPrice": "9.9",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0831/45/af/45afa846fe72c0028a667e642390d013_small.jpg"
+      },
+      {
+        "productId": "040401000754",
+        "productLable": "1000009339",
+        "productTitle": "倍轻松24K金黄金美容棒",
+        "productName": "平价好用不输大牌",
+        "salePrice": "288",
+        "activityPrice": "189",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0918/3a/38/3a3858fc86606059dae60e7027f81e8f_small.jpg"
+      },
+      {
+        "productId": "040401000020",
+        "productLable": "1000000050",
+        "productTitle": "朗嬴LY-118A颈椎按摩器治疗仪老人颈部按摩仪脖子经络电脉冲办公室家用",
+        "productName": "平价好用不输大牌",
+        "salePrice": "218",
+        "activityPrice": "49",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0831/8d/ec/8decd459f999a91efee98acd8898f6ff_small.jpg"
+      },
+      {
+        "productId": "040401000007",
+        "productLable": "1000000025",
+        "productTitle": "朗嬴LY-108迷你按摩器 眼部按摩器 按摩仪 眼周按摩器 眼部按摩仪",
+        "productName": "平价好用不输大牌",
+        "salePrice": "68",
+        "activityPrice": "18",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0831/f4/79/f479e54247bb48b63139ce8f4fdec909_small.jpg"
+      },
+      {
+        "productId": "040401000120",
+        "productLable": "1000000155",
+        "productTitle": "KEC-A06 家用太空舱全身按摩椅 多功能豪华按摩沙发椅",
+        "productName": "平价好用不输大牌",
+        "salePrice": "6580",
+        "activityPrice": "2980",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0901/53/57/5357baffbad328563065dac8fad9ee87_small.jpg"
+      },
+      {
+        "productId": "040401000589",
+        "productLable": "1000006483",
+        "productTitle": "倍轻松 硅胶电动洁面仪(新)",
+        "productName": "平价好用不输大牌",
+        "salePrice": "349",
+        "activityPrice": "199",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0915/eb/dc/ebdc7f119123017e7f39920692d58597_small.jpg"
+      },
+      {
+        "productId": "050501000301",
+        "productLable": "1000007315",
+        "productTitle": "众元康 养生热灸杯 220ml（美容杯）浪漫紫色",
+        "productName": "平价好用不输大牌",
+        "salePrice": "1980",
+        "activityPrice": "929",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0915/4d/2b/4d2b0a3f36f1d43861dd607cea361ee0_small.jpg"
+      }
+    ],
+    [
+      {
+        "productId": "0505021000095",
+        "productLable": "1000012460",
+        "productTitle": "富安娜家纺美眠羊毛被 203*229cm",
+        "productName": "平价好用不输大牌",
+        "salePrice": "1258",
+        "activityPrice": "598",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/0923/29/52/29523683138940c5818079dfddc02acd_small.jpg"
+      },
+      {
+        "productId": "050502000089",
+        "productLable": "1000000935",
+        "productTitle": "水星家纺 英伦风全棉斜纹印花四件套 图尔库 被套200*230",
+        "productName": "英伦格调 简约潮派",
+        "salePrice": "1099",
+        "activityPrice": "499",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0911/41/e8/41e837a7f46972ebccb68b730762c60b_small.jpg"
+      },
+      {
+        "productId": "050502001096",
+        "productLable": "1000010008",
+        "productTitle": "F-Cady/弗卡迪 床上用品 全棉印花 被套 床单 四件套-西雅图-格调系列",
+        "productName": "全棉印花 被套 床单 四件套",
+        "salePrice": "1196",
+        "activityPrice": "169",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0918/db/3b/db3b189ebbdbcc9c44c69e5ac9c4f0ac_small.jpg"
+      },
+      {
+        "productId": "0505021000064",
+        "productLable": "1000011899",
+        "productTitle": "喜芙妮（SOFTNIE）撒哈拉驼毛被200*230cm",
+        "productName": "平价好用不输大牌",
+        "salePrice": "988",
+        "activityPrice": "349",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0920/7e/b6/7eb6c0fe66f3c1b68b9b58fe8656301d_small.jpg"
+      },
+      {
+        "productId": "050502001100",
+        "productLable": "1000010023",
+        "productTitle": "F-Cady/弗卡迪 床上用品 全棉印花 被套 床单 四件套-亚马逊-格调系列",
+        "productName": "全棉印花 被套 床单 四件套",
+        "salePrice": "1196",
+        "activityPrice": "169",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0918/c4/91/c491f74694d5cc3fbbaf30da40b6af1c_small.jpg"
+      },
+      {
+        "productId": "0505022001357",
+        "productLable": "1000011743",
+        "productTitle": "【唯娜】欧式贡缎提花四件套轻奢床上用品 1.5cm-1.8cm适用",
+        "productName": "细腻光泽 保暖透气 丝滑柔软",
+        "salePrice": "299",
+        "activityPrice": "99",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0920/2e/08/2e08bf4b44ca901d2da40f7805a2b346_small.jpg"
+      },
+      {
+        "productId": "050502001152",
+        "productLable": "1000010373",
+        "productTitle": "梅绒优品无印色织水洗棉四件套被套(1.8米床笠款(被套200*230cm),流光粉条)",
+        "productName": "平价好用不输大牌",
+        "salePrice": "1398",
+        "activityPrice": "306",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0919/d9/23/d92306afdd174b99ebd279a97be355b4_small.jpg"
+      },
+      {
+        "productId": "0505022009059",
+        "productLable": "1000021986",
+        "productTitle": "金丝莉（KINTHERI）绣花贡缎套件   欧丽兰 朵西诺",
+        "productName": "金丝莉设计师认为：多彩的改变空间的力量不可忽视。   休闲家居软装多适用丰富的色彩，选择金丝莉床品和软装的搭配， 可以使生活空间更加灵动自然。",
+        "salePrice": "4368",
+        "activityPrice": "523",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1009/a7/f1/a7f1181f94c42a8f815847c529a8583f_small.jpg"
+      }
+    ],
+    [
+      {
+        "productId": "0101022002979",
+        "productLable": "1000012596",
+        "productTitle": "京薇 高保湿水光精华面霜50ml",
+        "productName": "保湿滋润霜补水提亮肤色",
+        "salePrice": "238",
+        "activityPrice": "69",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0921/57/b1/57b1e9e5dbc4bb1662bd66147eef885c_small.jpg"
+      },
+      {
+        "productId": "010102000598",
+        "productLable": "1000003042",
+        "productTitle": "瑜然美爽肤水精华水120ml女补水保湿滋润柔肤水化妆水毛孔收缩水神仙水",
+        "productName": "保湿补水",
+        "salePrice": "120",
+        "activityPrice": "29",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0913/7d/11/7d11c14806de0be50a77ed4d35e41b2b_small.jpg"
+      },
+      {
+        "productId": "010102000920",
+        "productLable": "1000004058",
+        "productTitle": "伊诗兰顿 Isilandon 保湿补水控油祛痘修护免洗 芦荟睡眠面膜",
+        "productName": "补水舒缓，战痘淡印",
+        "salePrice": "129",
+        "activityPrice": "29.9",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0913/66/7a/667a8f8efb5263d7ea29fe508862192b_small.jpg"
+      },
+      {
+        "productId": "010102001794",
+        "productLable": "1000007460",
+        "productTitle": "绿叶（Green Leaf）温泉净透补水6件套（洗面奶+爽肤水+乳液+旅行套装） 护肤套装女保湿 补水滋润 锁水控油",
+        "productName": "补水保湿 滋润肌肤 提亮肤色 保湿锁水 滋润舒缓护肤",
+        "salePrice": "345",
+        "activityPrice": "89",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0916/42/13/4213884a8136f606909cdc03db5ed1e1_small.jpg"
+      },
+      {
+        "productId": "0101022004930",
+        "productLable": "1000023477",
+        "productTitle": "百幽草补水保湿精华霜 50g 懒人霜乳液雪花膏面霜",
+        "productName": "补水保湿雪花膏",
+        "salePrice": "118",
+        "activityPrice": "29.9",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/1013/c4/22/c422f150c43b6a39b45b47ad19f86e92_small.jpg"
+      },
+      {
+        "productId": "010102001780",
+        "productLable": "1000007417",
+        "productTitle": "珀莱雅（PROYA)男士深海控油均衡保湿露50ml",
+        "productName": "补充水分 平衡控油 改善痘痕",
+        "salePrice": "79",
+        "activityPrice": "59",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0916/af/58/af581e8827c18903c35c7a66466873e3_small.jpg"
+      },
+      {
+        "productId": "010102001714",
+        "productLable": "1000006930",
+        "productTitle": "舒友阁鲜活奶珠霜 补水保湿去暗黄提亮肤色 80g",
+        "productName": "会爆奶的懒人面霜",
+        "salePrice": "49",
+        "activityPrice": "29.9",
+        "pictureAddr": "https://shengchan-images.oss-cn-beijing.aliyuncs.com/uploads/product/2017/0915/92/15/9215c3cd06d0888cb46d3f755570c93e_small.jpg"
+      },
+      {
+        "productId": "0101031000030",
+        "productLable": "1000014940",
+        "productTitle": "相宜本草橄榄油润手霜80g",
+        "productName": "持续滋润缓解粗糙",
+        "salePrice": "12.9",
+        "activityPrice": "9.9",
+        "pictureAddr": "https://images.maya1618.com/uploads/product/2017/0925/c0/14/c0140ac76bbc3ca4114b133da5ffca8d_small.jpg"
+      }
+    ]
+  ]
+}

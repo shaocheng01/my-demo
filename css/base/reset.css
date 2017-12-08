@@ -1,0 +1,63 @@
+/**
+ * Created by Lj on 2017/3/31.
+ * 重置css样式文件
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+html {
+    height:100%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+body {
+    height:100%;
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+.webIndexView {
+    position: relative;
+    height: 100%;
+}
+.clear {
+    clear: both;
+}
+
+*{  -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-touch-callout:none;  /*系统默认菜单被禁用*/
+    -webkit-user-select:none; /*webkit浏览器*/
+    -khtml-user-select:none; /*早期浏览器*/
+    -moz-user-select:none;/*火狐*/
+    -ms-user-select:none; /*IE10*/
+    user-select:none;
+    -webkit-overflow-scrolling: touch;
+}
+
+input,select,textarea {
+    outline:0;
+    border: none;
+    -webkit-user-select:auto; /*webkit浏览器*/
+}
+input::-webkit-input-placeholder {
+	font-size: 0.6rem;
+}
+

@@ -1,0 +1,48 @@
+<div class="down_title_box">
+	<img src="imgs/APP_market/APP_logo.jpg"/>
+	<p class="app_title">玛雅六月</p>
+	<p>“玛雅六月 - 新人送2000元大礼包”</p>
+	<div class="down_button" ng-click="upDown()" ng-bind="down_text"></div>
+</div>
+<div class="down_message_box">
+	<div class="down_content_box">
+		<!--APP图片展示-->
+		<div class="message_img">
+			<div class="message_img_all" style="width: {{8.1*img_num.length-0.6}}rem;">
+				<img class="placeholder_big" ng-src="imgs/APP_market/app{{num}}.jpg" ng-repeat="num in img_num track by $index"/>
+			</div>
+		</div>
+		<!--app介绍-->
+		<pre>- 消费娱乐新电商，引领电商创新潮流；
+- 消费抢红包，推荐抢红包，平台利润共分享；
+- 安全、健康、优质的综合性家庭服务平台。
+
+玛雅六月，一个全新的电商平台诞生了。
+
+【她要做什么？】
+· 她带着使命而来，立志要解决消费者的痛点，
+· 要为消费者解决消费安全，
+· 健康和品质的问题，要为消费者创造价值。
+· 她的定位是 “安全、健康和优质的综合性家庭服务平台”。
+
+【她带着使命而来 】
+· 她带着使命而来，立志要重塑商家和消费者利润分配的结构，
+· 玛雅设计的独特商业模式将实现商家和消费者的互利共赢。
+· 她带着使命而来，立志要借助在全球耕耘积累近20年的市场资源成为全球化优质产品的流通平台。
+· 为消费者打造时尚优质生活。
+
+【感谢您】
+· 感谢您对玛雅六月的关注，您的参与会让我们一起成为价值的分享者。
+· 玛雅，一段曾经伟大辉煌的历史文明，
+· 将在玛雅六月平台上荣耀回归。</pre>
+		<!--安全服务-->
+		<ul class="app_serve">
+			<li style="background-image: url(imgs/APP_market/app_serve1.png);">无病毒</li>
+			<li style="background-image: url(imgs/APP_market/app_serve2.png);">无广告</li>
+			<li style="background-image: url(imgs/APP_market/app_serve3.png);">官方版本</li>
+		</ul>
+	</div>
+</div>
+<!--微信中提示浏览器打开-->
+<div is_show_weixin></div>
+<loading></loading>

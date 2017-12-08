@@ -1,0 +1,21 @@
+<div class="floor_box">
+	<img class="placeholder floor_detail_banner" ng-src="imgs/activity_floor/b_{{show_index+1}}.jpg" />
+	<!--分会场-->
+	<div class="floor_list" ng-repeat="box in floor_detail track by $index">
+		<p class="detail_title" ng-bind="box.title" ng-if="box.title"></p>
+		<div class="pros_list_box">
+			<div class="pro_box detail_pro_box" ng-repeat="product in box.data track by $index" ng-click="toDetailPage(product.productId,product.productLable)">
+				<div class="pro_img_box">
+					<img class="placeholder_big" ng-src="{{product.pictureAddr}}"/>
+					<text class="list_activity_logo">直降</text>
+				</div>
+				<p class="pro_title ellipsis" ng-bind="product.productTitle"></p>
+				<p class="pro_title ellipsis pro_infos" ng-bind="product.productName"></p>
+				<div class="pro_price" >
+					<span class="ellipsis" ng-bind="product.activityPrice?'¥'+product.activityPrice:'¥'+product.salePrice"></span>
+					<span class="price_mini ellipsis" ng-if="product.activityPrice" ng-bind="'¥'+product.salePrice"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,55 @@
+<div class="red-pocket-wp" ng-if="!data.isShowRecord">
+    <div class="pocket-bg">
+        <div class="pocket-head">
+            <img src="imgs/red-ready.png" ng-if="data.isStart == 0 || data.isStart == -1 || data.isStart == 2">
+            <img src="imgs/pocket-ing.png" ng-if="data.isStart == 1">
+        </div>
+
+        <div class="pocket-body">
+            <div class="pocket-body-text">本场红包池金额</div>
+            <div class="pocket-body-text" ng-if="data.isStart == -1 || data.isStart == 2">本场红包已结束</div>
+            <div class="pocket-timer">&yen;{{data.price}}</div>
+            <div class="pocket-body-detail" ng-if="data.isStart == 0">
+                <div class="pocket-total"  ng-bind="data.iHour_p +':'+ data.iMin_p+':'+ data.iSec_p" ng-if="data.isStart == 0"></div>
+            </div>
+            <div class="pocket-body-btn" ng-click="grabBtnClick()" ng-if="data.isStart == 1"></div>
+
+            <div class="pocket-chance" ng-if="data.isStart == 0">您有<span class="chance" ng-bind="data.residueCount"></span>次机会</div>
+        </div>
+
+        <div class="pocket-footer">
+            <div class="pocket-footer-text">
+                <span class="pocket-footer-btn" ng-if="data.isStart == 0" ng-click="goBuyBtnClick()">想抢更多红包吗?下单吧,</span>
+                <span class="pocket-footer-btn" ng-if="data.isStart == 1">您有<span class="chance1" ng-bind="data.residueCount"></span>次机会</span>
+                <span class="pocket-footer-btn pml" ng-click="goBuyBtnClick()" ng-if="data.isStart == 0">GO</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="record-wp" ng-if="data.isShowRecord">
+    <div class="record-header">
+        <div class="record-chance">
+            您有
+            <span class="record-num" ng-bind="data.overplusCount"></span>
+            次机会
+        </div>
+        <div class="record-btn" ng-click="grabBtnClick()"></div>
+    </div>
+    <div class="record-title">
+        <img class="record-icon" src="imgs/record-icon.png" alt="">
+        <span>记录</span>
+    </div>
+    <ul>
+        <li class="record-list-item" ng-repeat="item in data.listItem">
+            <img class="record-portrait" ng-src="{{item.imgUrl}}" src="imgs/portrait-def-p.png">
+            <div class="record-detail">
+                <div class="nick-name-wp">
+                    <span class="nick-name">{{item.nickName}}</span>
+                    <span class="record-money">+{{item.snagMoney}}</span>
+                </div>
+                <div class="record-time">{{item.snagTime | date:'yyyy-MM-dd HH:mm:ss'}}</div>
+            </div>
+        </li>
+    </ul>
+</div>

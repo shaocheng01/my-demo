@@ -1,0 +1,238 @@
+.progress-node {
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0 0.25rem;
+    margin-top: 0.5rem;
+    list-style: none;
+    position: relative;
+}
+
+ul li .test-icon {
+    display: block;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border-radius: 50%;
+    width: 1.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.position {
+    position: absolute;
+    width: 100%;
+}
+.complete {
+    width: 0.75rem;
+    top: 25%;
+    left: 25%;
+}
+.line {
+    width: 80%;
+    height: 0.1rem;
+    background-color: #F8A432;
+    position: absolute;
+    top: 2.6rem;
+    left: 10%;
+}
+.text {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
+.line-three {
+    width: 66%;
+    height: 0.1rem;
+    background-color: #F8A432;
+    position: absolute;
+    top: 2.75rem;
+    left: 17%;
+}
+
+.progress-header {
+    background: url("../../imgs/th3.jpg") no-repeat center;
+    background-size: cover;
+    padding: 1.35rem 0;
+    position: relative;
+    color: #fff;
+    height: 3.3rem;
+}
+.indicate {
+    width: 0.05rem;
+    border: 8px solid;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    bottom: -1.4rem;
+    left: 50%;
+    margin-left: -0.45rem;
+    /*display: none;*/
+}
+.progress-body {
+    padding: 1.45rem 0 0 0.9rem;
+    font-size: 0.7rem;
+    background-color: #fff;
+}
+.progress-body  li {
+    position: relative;
+    border-left: 1px solid #ddd;
+    padding-bottom: 1.4rem;
+}
+.progress-icon {
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background-color: #999;
+    position: absolute;
+    left: -0.3rem;
+}
+.progress-text {
+    display: block;
+    line-height: 1.25rem;
+    color: #555;
+    padding-bottom: 0.5rem;
+    word-break: break-all;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+}
+.progress-text:nth-child(2) {
+    border-bottom: 1px solid #ddd;
+}
+
+.progress-text:last-child {
+    border-bottom: none;
+}
+
+.progress-time {
+    color: #999;
+    display: block;
+}
+
+.progress-dt-wp {
+    margin-left: 1.2rem;
+    padding-right: 0.8rem;
+}
+
+.progress-dt-wp.ptd {
+    border-top: 1px solid #ddd;
+    margin-left: 1.2rem;
+    padding-right: 0.8rem;
+    padding-top: 1.4rem;
+}
+.progress-content {
+    color: #999999;
+    line-height: 1.25rem;
+}
+.progress-img {
+    width: 3.05rem;
+    margin-right: 0.7rem;
+    margin-top: 0.25rem;
+}
+.remark-btn {
+    display: inline-block;
+    width: 7.5rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    background-color: #ff8700;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.express > input {
+    width: 92%;
+    height: 2rem;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-top: 1.35rem;
+    outline: none;
+    font-size: 0.7rem;
+    -webkit-appearance: none;
+    text-indent: 5px;
+
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+    font-size: 0.7rem;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;
+    font-size: 0.7rem;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+    font-size: 0.7rem;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999;
+    font-size: 0.7rem;
+}
+.submit-btn {
+    display: inline-block;
+    width: 95%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9rem;
+    background-color: #ff8700;
+    border-radius: 3px;
+    margin-top: 1.35rem;
+}
+.after-total {
+    color: #EE0201;
+}
+.showNodes {
+    visibility: hidden;
+}
+
+.masker-bigImg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+.masker-bigImg>img {
+    /*height: -webkit-fill-available;*/
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    max-width: 96%;
+    max-height: 96%;
+}
+.progress-dt-wp .progress-text:nth-child(3) {
+    margin-top: 0.5rem;
+}
+
+.inactive-submit-btn {
+    background-color: #ddd;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

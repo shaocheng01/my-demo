@@ -1,0 +1,328 @@
+.share-wp {
+    height: 100%;
+    /*position: relative;*/
+    background: #ff8700;
+}
+.share-bg {
+    position: relative;
+    background-color: #85d989;
+    width: 100%;
+    height: 100%;
+    background: url(../../imgs/share_bg1.jpg) no-repeat center top;
+    background-size: 100%;
+}
+.share-down {
+    position: relative;
+    width: 100%;
+    height: 6.25rem;
+    background: url(../../imgs/share-download.png) no-repeat;
+    background-size: 100% 100%;
+}
+.get-btn {
+    position: absolute;
+    width: 8.17rem;
+    height: 2rem;
+    top: 23.25rem;
+    right: 0;left: 0;
+    margin: 0 auto;
+    background: url(../../imgs/get-gift1.png) no-repeat;
+    background-size: 100%;
+    font-size: 0.85rem;
+    text-align: center;
+    color: #fff;
+    line-height: 2rem;
+    overflow: hidden;
+}
+.share-total {
+    width: 8.9rem;
+    height: 5.25rem;
+    position: absolute;
+    top: 18rem;
+    right: 0;left: 0;
+    margin: 0 auto;
+    background: url(../../imgs/total.png) no-repeat top center;
+    background-size: 100%;
+}
+.qr-code {
+    width: 4.25rem;
+    height: 4.25rem;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    margin-top: -2.2rem;
+    background: url(../../imgs/p-code.png) no-repeat center;
+    background-size: cover;
+}
+.download-app {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+}
+.download-text {
+    font-size: 0.65rem;
+    color: #858381;
+    width: 6.75rem;
+    text-align: center;
+}
+.download-btn {
+    width: 6.2rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    background-color: #ff8700;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+.share-login-wp {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color : #ffffff;
+    background: rgba(0,0,0,0.5);
+}
+.login {
+    width: 13.6rem;
+    height: 10.3rem;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    /*top: 50%;
+    margin-top: -6.25rem;
+    left: 50%;
+    margin-left: -7.9rem;*/
+   	top: 0;bottom: 0;left: 0;right: 0;
+   	margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
+.share-title {
+    text-align: center;
+    color: #555555;
+    font-size: 0.85rem;
+    margin: 0.6rem 0;
+}
+.share-close {
+    display: inline-block;
+    width: 0.65rem;
+    height: 0.65rem;
+    background: url(../../imgs/close.png) no-repeat center;
+    background-size: 0.6rem;
+    padding: 0.5rem;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.3rem;
+    z-index: 5;
+}
+
+.login-phone {
+    overflow: hidden;
+}
+#login-phone {
+    overflow: initial;
+}
+
+.login-phone>input#phone {
+    width: 99%;
+    height: 2rem;
+    border: 1px solid #dddddd;
+    outline: none;
+    font-size: 0.7rem;
+    -webkit-appearance: none;
+    text-indent: 0.25rem;
+    box-sizing: border-box;
+}
+
+.login-phone>input#phone-code {
+    width: 60%;
+    height: 2rem;
+    border: 1px solid #dddddd;
+    outline: none;
+    margin-top: 0.9rem;
+    font-size: 0.7rem;
+    -webkit-appearance: none;
+    text-indent: 0.25rem;
+    float: left;
+    box-sizing: border-box;
+}
+.get-code {
+    float: right;
+    width: 32%;
+    height: 1.85rem;
+    color: #ffffff;
+    line-height: 1.85rem;
+    text-align: center;
+    font-size: 0.75rem;
+    background-color: #ff8700;
+    margin-top: 0.95rem;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.got {
+    background-color: #ddd;
+}
+.get-gift {
+    display: inline-block;
+    width: 100%;
+    height: 1.95rem;
+    border-radius: 3px;
+    background-color: #ff8700;
+    line-height: 1.95rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.get-failed-icon {
+    width: 5rem;
+    height: 4rem;
+    background: url(../../imgs/get-failed.png) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.failed-text {
+    color: #555;
+    font-size: 0.7rem;
+    width: 13.5rem;
+    display: inline-block;
+    text-align: left;
+}
+.success-text {
+    color: #555;
+    font-size: 0.7rem;
+    width: 13.5rem;
+    display: inline-block;
+    text-align: center;
+}
+.download-app-btn-box{
+	position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 1rem;
+}
+.download-app-btn {
+    width: 8.1rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+    background-color: #ff8700;
+    font-size: 0.85rem;
+    border-radius: 5px;
+    display: inline-block;
+    /*margin-top: 1.05rem;*/
+}
+.get-success-icon {
+    width: 5rem;
+    height: 3.7rem;
+    background: url(../../imgs/get-success.png) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+/************* APP下载页面 **************/
+.down_title_box{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+.down_title_box>img{
+	width: 4rem;
+	height: 4rem;
+	border-radius: 1rem;
+	display: block;
+	margin: 0.8rem auto 0;
+}
+.down_title_box>p{
+	font-size: 0.7rem;
+	text-align: center;
+	margin: 0.5rem 0;
+}
+.down_title_box .app_title{
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+.down_button{
+	width: 66%;
+	height: 1.75rem;
+	overflow: hidden;
+	line-height: 1.75rem;
+	text-align: center;
+	background: #00a3ef;
+	color: #fff;
+	margin: 0.8rem auto;
+	font-size: 0.7rem;
+}
+.down_message_box{
+	width: 100%;
+	overflow: hidden;
+	padding: 0.5rem;
+	box-sizing: border-box;
+}
+.down_content_box{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+	/*box-shadow: 0 0 22px -10px #000;*/
+	margin-bottom: 0.5rem;
+}
+.message_img{
+	width: 95%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	margin: 0.5rem auto;
+    box-sizing: border-box;
+}
+.message_img_all{
+	overflow: hidden;
+	padding: 0.5rem;
+}
+.message_img_all img{
+	width: 7.5rem;
+	min-height: 13rem;
+	float: left;
+	margin-right: 0.6rem;
+	box-shadow: 0 0 5px -2px #000;
+}
+.message_img_all img:last-child{
+	margin-right: 0;
+}
+.down_content_box>pre{
+	font-size: 0.7rem;
+	line-height: 1rem;
+	padding: 0.6rem;
+	box-sizing: border-box;
+}
+.app_serve{
+	width: 100%;
+	overflow: hidden;
+	margin: 0.25rem 0 0.5rem;
+	padding: 0 0.6rem;
+	box-sizing: border-box;
+}
+.app_serve li{
+	float: left;
+	padding-left: 1rem;
+	background-size: 0.8rem;
+	background-position: left center; 
+	margin-right: 1rem;
+	background-repeat: no-repeat;
+	font-size: 0.6rem;
+}
+
+
+
+

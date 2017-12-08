@@ -1,0 +1,68 @@
+<div class="progress-wp">
+    <ul class="progress-header">
+
+        <li class="line"></li>
+
+        <li class="progress-node" ng-repeat="item in data.statusData">
+            <div class="test-icon">
+                <img src="imgs/done.png" alt="" class="position" ng-show="{{data.curNode > item.index}}">
+                <img src="imgs/doing.png" alt="" class="position" ng-show="{{data.curNode == item.index}}">
+                <img src="imgs/todo.png" alt="" class="position complete" ng-show="{{data.curNode < item.index}}">
+            </div>
+            <div class="text">{{item.name}}</div>
+            <div class="indicate" ng-show="{{data.curNode == item.index}}"></div>
+        </li>
+
+        <li class="clear"></li>
+    </ul>
+
+
+    <div class="progress-body">
+        <ul>
+            <!--------------- 退换货第一步提交详情部分 ------------------>
+            <li class="progress-detail" ng-repeat="model in data.saleInfos">
+                <div class="progress-dt-wp">
+                    <i class="progress-icon"></i>
+                    <div class="progress-text" ng-repeat="text in model[1]" >
+                        <span ng-if="text.nodeType == 1 || text.sIndex == 1">{{text.addTime | date:'yyyy-MM-dd HH:mm'}} <br></span>
+                        <span ng-if="text.sIndex != 1 && text.sName != 'photos'">{{text.sName}}:</span>
+                        <span ng-if="text.sName != 'photos'">{{text.sValue}}</span>
+                    </div>
+                </div>
+
+                <!--------------- 修改申请原因部分 ------------------>
+                <span class="remark-btn progress-dt-wp" ng-if="model[3]==1" ng-click="page.openApplicationPage()">修改申请原因</span>
+
+                <!--------------- 显示图片部分 ------------------>
+                <div class="progress-pic progress-dt-wp" ng-if="model[2]==1 && box.sName=='photos'" ng-repeat="box in model[1]">
+                    <img ng-repeat="img in box.showImg" ng-src="{{img.smallImg}}" class="progress-img" ng-click="page.showBigPicture(img.bigImg)">
+                </div>
+
+
+                <!--------------- 填写快递公司输入框部分 ------------------>
+                <div class="progress-dt-wp" ng-if="model[3]==3">
+                    <div class="express">
+                        <input id="company" type="text" placeholder="快递公司名称" ng-disabled="{{data.forbidden}}">
+                    </div>
+                    <div class="express">
+                        <input id="number" type="number" placeholder="输入退货的快递单号" ng-disabled="{{data.forbidden}}">
+                    </div>
+                    <div class="submit-btn" ng-click="page.submitBtnClick()" ng-class="{true:'inactive-submit-btn',false:'submit-btn'}[{{data.forbidden}}]">提交</div>
+                </div>
+
+                <!--------------- 补充说明按钮部分 ------------------>
+                <span class="remark-btn progress-dt-wp" ng-if="model[3]==2" ng-click="page.openSupplementPage()" ng-class="{true:'inactive-submit-btn',false:'remark-btn progress-dt-wp'}[{{data.forbidden}}]">补充说明</span>
+
+                <!--------------- 确认收货按钮部分 ------------------>
+                <span class="remark-btn progress-dt-wp" ng-if="model[3]==4" ng-click="page.confirmBtnOnClick()" ng-class="{true:'inactive-submit-btn',false:'remark-btn progress-dt-wp'}[{{data.forbidden}}]">确认收货</span>
+
+            </li>
+        </ul>
+    </div>
+
+    <div class="masker-bigImg" ng-click="page.hideMasker()">
+        <img src="" ng-click="page.hideMasker()">
+    </div>
+</div>
+
+<div toast_tpl></div>

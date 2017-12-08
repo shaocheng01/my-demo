@@ -1,0 +1,28 @@
+#rule-wp {
+    padding: 0;
+}
+#rule-wp>img {
+    display: block;
+    width: 100%;
+}
+
+/*.rule-top {*/
+    /*height: 60px;*/
+    /*background: url(../../imgs/rule/title.png) no-repeat;*/
+    /*background-size: contain;*/
+/*}*/
+/*.rule-title {*/
+    /*!*font-family: ;*!*/
+    /*font-size: 20px;*/
+    /*text-align: right;*/
+    /*color: #ff8700;*/
+    /*margin-right: 20px;*/
+/*}*/
+/*.rule-detail {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*border-left: 2px solid #ff8700;*/
+    /*margin-top: 10px;*/
+    /*position: relative;*/
+/*}*/
+

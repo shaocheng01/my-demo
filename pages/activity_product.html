@@ -1,0 +1,20 @@
+<div class="activity-wrap" ng-show="data.isShowPage == 1">
+    <div class="activity-ad">
+        <img class="placeholder" src="{{data.adPictureUrl}}"> <!--onerror="this.src='imgs/test1.jpg'"-->
+    </div>
+
+    <div class="tab-body">
+        <!--一个body页面-->
+        <div class="act-pro-wp" collect_product_tpl style="border-top: 10px solid #f4f4f4;"></div>
+    </div>
+
+    <div toast_tpl></div>
+
+</div>
+<div error_page_tpl></div>
+<!--分享按钮-->
+<img class="share_button" ng-if="isShowShar" src="imgs/activity_floor/share_button.png" ng-click="click_share()"/>
+<!--微信中提示浏览器打开-->
+<div is_show_weixin></div>
+<!--pop提示-->
+<toast_long></toast_long>

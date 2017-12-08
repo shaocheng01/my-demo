@@ -1,0 +1,103 @@
+/******************分享 注册 页面******************/
+.outer_bg{
+	position: absolute;
+	width: 100%;
+	min-height: 100%;
+	background: url(../../imgs/invite/invite_bg.jpg) no-repeat top center #eea481;
+	background-size: 100%;
+	overflow: hidden;
+}
+.invite_box{
+	width: 100%;
+	overflow: hidden;
+	margin: 88% 0 8%;
+}
+.center_input{
+	width: 100%;
+	overflow: hidden;
+}
+.center_div{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.center_div p{
+	text-align: center;
+	color: #333;
+}
+.font_p2,.font_p3{
+	font-size: 0.65rem;
+}
+.font_p2{
+	font-size: 0.65rem;
+	margin-bottom: 0.625rem;
+}
+.outer_bg input{
+	width: 100%;
+	height: 1.95rem;
+	font-size: 0.6rem;
+	/*line-height: 1.95rem;*/
+	display: block;
+	border: none;
+	margin: 0 auto;
+	border-radius: 0.15rem;
+	margin-bottom: 0.6rem;
+	padding-left: 0.5rem;
+	box-sizing: border-box;
+}
+.input_div{
+	width: 11.65rem;
+	margin: 0.75rem auto 0;
+	overflow: hidden;
+}
+.code_box{
+	width: 100%;
+	height: 1.95rem;
+	line-height: 1.95rem;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.input_div .code{
+	float: left;
+	width: 54%;
+	height: 100%;
+	margin: 0;
+}
+.get_code{
+	float: right;
+	color: #000;
+	font-size: 0.65rem;
+	text-align: center;
+	display: inline-block;
+	width: 41%;
+	height: 100%;
+	border-radius: 0.25rem;
+	background: #fdc146;
+    box-sizing: border-box;
+}
+.jion_up{
+	width: 11.65rem;
+	height: 2rem;
+	line-height: 2rem;
+	overflow: hidden;
+	margin: 0.75rem auto 0;
+}
+.jion_up .join_we{
+	float: left;
+	color: #000;
+	border-radius: 0.25rem;
+	font-size: 0.9rem;
+	width: 100%;
+	height: 100%;
+	background: #fdc146;
+	text-align: center;
+}
+#goDownload{
+	position: absolute;
+	top: 1.5rem;right: 0.5rem;
+	font-size: 0.5rem;
+	color: #333;
+	border-bottom: 1px #333 solid;
+	z-index: 5;
+}
+
