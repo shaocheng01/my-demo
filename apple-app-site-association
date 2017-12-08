@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+                    {
+                    "appID": "7VTSUW35F2.com.maya1618.TiensClient",
+                    "paths": [ "/#/share/*", "/#/share?inviteId=?"]
+                    }
+                    ]
+    }
+}
